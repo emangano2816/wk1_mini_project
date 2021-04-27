@@ -1,0 +1,87 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color:white;
+}
+
+.header {
+    background-color:teal;
+    position:fixed;
+    top:0;
+    left:0;
+    min-height:25px;
+    top:0;
+    left:0;
+    right:0;
+}
+
+a:hover {
+    color:white;
+}
+
+
+.header li {
+    list-style-type: none;
+    padding: 10px;
+    display:inline-block;
+
+}
+
+.welcome-image {
+    background-color: pink;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0px 10px;
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.contact-form {
+    background-color:lightblue;
+    padding: 10px;
+    border-top-style:groove;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color:mediumblue;
+    padding: 10px 0px 20px;
+}
+
+.form-box ul{
+    border-style: groove;
+    width:50%;
+    margin:auto;
+}
+
+.form-box li {
+    padding:5px;
+    list-style-type:none ;
+    text-align: center;
+}
+
+input{
+    width:75%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="Submit"] {
+    width:25%;
+}
